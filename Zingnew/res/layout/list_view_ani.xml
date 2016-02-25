@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@drawable/list_selector"
+    >
+
+    <ImageView
+        android:paddingRight="10dp"
+        android:paddingLeft="1dp"
+        android:id="@+id/iv_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_singers"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"        
+        android:src="@drawable/music_icon" />
+
+    <TextView
+        android:id="@+id/tv_songs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/iv_icon"
+        android:text="Songs" 
+        android:textColor="#FFFFFF"     
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tv_singers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_songs"
+        android:layout_below="@+id/tv_songs"
+        android:text="Singers"
+        android:textColor="#FFFFFF"   
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/iv_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_songs"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/arrow" />
+
+</RelativeLayout>
