@@ -1,0 +1,18 @@
+# view AndroidManifest.xml #generated:29
+-keep class com.clouddemo.GCMIntentService { <init>(...); }
+
+# view AndroidManifest.xml #generated:41
+-keep class com.clouddemo.RegisterActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:42
+-keep class com.clouddemo.mainapp.AddNodeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:43
+-keep class com.clouddemo.mainapp.ListNoteActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:21
+-keep class com.clouddemo.mainapp.MainApp { <init>(...); }
+
+# view AndroidManifest.xml #generated:30
+-keep class com.google.android.gcm.GCMBroadcastReceiver { <init>(...); }
+
