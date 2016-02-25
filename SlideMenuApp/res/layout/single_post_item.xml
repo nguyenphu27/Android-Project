@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+   	android:background="@drawable/item" >
+
+    <TextView
+        android:id="@+id/id_tencasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/id_tenbaihat"
+        android:layout_below="@+id/id_tenbaihat"
+        android:text="Ten ca si"
+        android:textSize="12sp" 
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/id_tenbaihat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="23dp"
+        android:layout_toRightOf="@+id/id_sothutu"
+        android:text="Ten bai hat"
+        android:textSize="20sp" 
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/id_sothutu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/id_tencasi"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="27dp"
+        android:text="1." 
+        android:textColor="#000000"/>
+    
+</RelativeLayout>

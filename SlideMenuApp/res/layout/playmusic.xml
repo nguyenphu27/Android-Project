@@ -1,0 +1,141 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.test.MainActivity"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:id="@+id/control_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="#00000000"
+        android:gravity="bottom" 
+        android:orientation="horizontal">
+
+			<LinearLayout
+			    android:layout_weight="1"
+                android:id="@+id/linearrepeat"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" 
+                android:gravity="center"              
+                android:orientation="horizontal" >
+                
+               <ImageView
+                android:id="@+id/Btn_shuffle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img_btn_shuffle" />               
+           </LinearLayout>
+           
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_toRightOf="@+id/linearrepeat"
+                android:id="@+id/linearLayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+           		android:layout_gravity="center"
+           		android:gravity="center"
+                android:orientation="horizontal" >
+                <ImageView
+                    android:id="@+id/Btn_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_pre"
+                    android:gravity="center" 
+                    android:layout_marginRight="3dp"/>
+
+                <ImageView
+                    android:id="@+id/Btn_play"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center" />
+
+                <ImageView
+                    android:id="@+id/Btn_next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_next"
+                    android:gravity="center" 
+                    android:layout_marginLeft="3dp"/>
+            </LinearLayout>
+
+          
+ 			<LinearLayout
+ 			    android:layout_weight="1"
+ 			   	android:layout_toRightOf="@+id/linearLayout1"
+                android:id="@+id/linearLayoutshuffle"               
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" 
+                android:gravity="center">
+               
+               <ImageView
+                android:id="@+id/Btn_repeat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img_btn_repeat" />
+           </LinearLayout>
+
+
+    </LinearLayout>
+        
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/control_layout"/>
+
+    <TextView
+        android:id="@+id/songCurrentDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/seekBar1"
+        android:layout_alignParentLeft="true"
+        android:text="0:00"
+        android:textColor="#FFFFFF" 
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/songtotalDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/seekBar1"
+        android:layout_alignParentRight="true"
+        android:textColor="#FFFFFF"
+        android:text="0:00"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tv_tencasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_tenbaihat"
+        android:layout_centerHorizontal="true"
+        android:text="Ten ca si" 
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/tv_tenbaihat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Ten bai hat"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/imv_cd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_tencasi"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/cd_mp3" />
+
+</RelativeLayout>
