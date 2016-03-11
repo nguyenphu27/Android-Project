@@ -1,1 +1,1 @@
-Live Wallpaper using Andengie library.
+Live Wallpaper using Andengine library.
