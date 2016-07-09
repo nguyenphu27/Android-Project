@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/sort_menu" android:title="@string/sort_menu" android:icon="@drawable/ic_menu_sort" android:titleCondensed="@string/sort_menu" android:showAsAction="never|withText">
+        <menu>
+            <item android:id="@+id/sort_modified_time" android:showAsAction="withText" android:titleCondensed="@string/sort_modified_time" android:title="@string/sort_modified_time" android:icon="@drawable/ic_menu_created_time"/>
+            <item android:id="@+id/sort_alphabectically" android:showAsAction="withText" android:titleCondensed="@string/sort_alphabectically" android:title="@string/sort_alphabectically" android:icon="@drawable/ic_menu_sort_alphabetically"/>
+        </menu>
+    </item><item android:id="@+id/add_menu" android:title="@string/add_note" android:showAsAction="never|withText" android:titleCondensed="@string/add_note" android:icon="@drawable/ic_action_add_note">
+    </item>
+    <item android:id="@+id/sync_menu" android:title="@string/sync_menu" android:icon="@drawable/ic_menu_sync" android:titleCondensed="@string/sync_menu" android:showAsAction="never|withText"></item>
+    <item android:id="@+id/setting_menu" android:title="@string/setting_menu" android:icon="@drawable/ic_menu_preferences" android:titleCondensed="@string/setting_menu" android:showAsAction="never|withText">
+        <menu>
+            <item android:id="@+id/submenu_setting_cloud" android:showAsAction="withText" android:titleCondensed="@string/submenu_setting_cloud" android:title="@string/submenu_setting_cloud"/>
+            <item android:id="@+id/submenu_setting_backup" android:showAsAction="withText" android:titleCondensed="@string/submenu_setting_backup" android:title="@string/submenu_setting_backup"/>
+            <item android:id="@+id/submenu_setting_about" android:showAsAction="withText" android:titleCondensed="@string/submenu_setting_about" android:title="@string/submenu_setting_about"/>
+        </menu>
+    </item>
+</menu>

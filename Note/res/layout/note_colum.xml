@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:background="@drawable/item"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_note_grid_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textStyle="bold"
+        />
+    
+	<TextView
+	    android:id="@+id/tv_note_grid_date"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textSize="12sp" 
+	    />
+	
+	<TextView
+	    android:id="@+id/tv_note_grid_body"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:ellipsize="end"
+	    android:maxLines="4"
+	    />
+</LinearLayout>

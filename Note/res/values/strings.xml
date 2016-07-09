@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Note</string>
+    <string name="no_note">Chưa có ghi chú!</string>
+	<string name="add_note">Tạo mới</string>
+	<string name="sort_menu">Sắp xếp</string>
+	<string name="sync_menu">Đồng bộ</string>
+	<string name="setting_menu">Cài đặt</string>
+	<string name="sort_modified_time">Theo thời gian tạo</string>
+	<string name="sort_alphabectically">Từ A-Z</string>
+	<string name="submenu_setting_cloud">Backup Online</string>
+	<string name="submenu_setting_backup">Backup SD</string>
+	<string name="submenu_setting_about">Thông tin nhóm</string>
+	<string name="title_edit_note">Tiêu đề</string>
+	<string name="body_edit_note">Nội dung</string>
+	<string name="body_edit_note_date">4/8/2016 3:32 PM</string>
+	<string name="menu_delete">Xóa</string>
+	<string name="contextmenu_check">Đã hoàn thành</string>
+	<string name="contextmenu_pinstatus">Pin</string>
+	<string name="backup_btn">Backup</string>
+	<string name="empty_backup">Empty Backup!</string>
+	<string name="title_backup">Backup</string>
+	<string name="contextmenu_restore">Restore</string>
+	<string name="contextmenu_deletefile">Delete</string>
+	<string name="dialog_title">Cảnh báo</string>
+	<string name="dialog_message">Bạn có chắc chắn đây là bản backup mới nhất, nếu không mọi dữ liệu thay đổi sau đó sẽ mất hết !</string>
+	<string name="dialog_OK">Tiếp tục</string>
+	<string name="dialog_Cancel">Hủy</string>
+	<string name="toast_saved">Đã lưu</string>
+	<string name="toast_backupSuccessfully">Backup Successfully!</string>
+	<string name="toast_backupFailed">Backup Failed! Are you sure SD card plug in or space enough?</string>
+	<string name="toast_restoreSuccessfully">Restore Data Successfully!</string>
+	<string name="sync_button">Sync</string>
+	<string name="disconnect_button">Disconnect</string>
+	<string name="no_database">You have no data! Please sync to update data.</string>
+	<string name="contextmenu_restoreTilteCloud">Restore Data</string>
+	<string name="contextmenu_messageCloud">Bạn có chắc muốn khôi phục dữ liệu này?</string>
+	<string name="toast_disconnect">Disconnected account!</string>
+	<string name="tv_User_disconnect">Disconnected! Please sign in again. </string>
+	<string name="toast_noAccountLink">You have no account current linked!</string>
+	<string name="toast_loginSuccessfully">Login Successfully!</string>
+	<string name="toast_linkFailed">Link to Dropbox failed!</string>
+	<string name="context_btn_cloud_restore">Restore</string>
+	<string name="context_btn_cloud_delete">Delete</string>
+	<string name="toast_deleteSuccessfully">Delete Successfully!</string>
+	<string name="fileName_Cloud_backup"/>
+	<string name="tv_Synced">Last Synced:</string>
+	<string name="sync_title">Sync</string>
+	<string name="contextmenu_unpinstatus">Unpin</string>
+	<string name="sync_button_signin">Sign in Dropbox</string>
+	<string name="title_about">Ứng dụng ghi chú cá nhân </string>
+	<string name="group_about">Nhóm:</string>
+	<string name="member1_about">Nguyễn Đức Phú</string>
+	<string name="member2_about">Hoàng Thanh Tùng</string>
+	
+</resources>
