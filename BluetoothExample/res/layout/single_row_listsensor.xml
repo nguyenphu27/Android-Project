@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/tab_selector_listsensor">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/tv_valuesensor"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/right_arrow"/>
+
+    <TextView
+        android:id="@+id/tv_namesensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="14dp"
+        android:text="%SpO2"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#F44336"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_valuesensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_namesensor"
+        android:layout_centerHorizontal="true"
+        android:text="98%"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#E65100"
+        android:textSize="53sp" />
+
+</RelativeLayout>

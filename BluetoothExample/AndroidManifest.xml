@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bluetoothexample"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="22" />
+    
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Sherlock.Light.DarkActionBar" 
+        android:screenOrientation="portrait">
+        <activity
+            android:name=".MainApp"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".SensorActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".CloudActivity" android:screenOrientation="portrait"/>       
+        <activity android:name=".History" android:screenOrientation="portrait"/>         
+        <activity android:name=".Setting" android:screenOrientation="portrait"/> 
+        <activity android:name=".BluetoothSetting" android:screenOrientation="portrait"/>
+		
+        <!-- Early warning score activity--> 	
+		<activity
+            android:name="com.example.bluetoothexample.ews.EWSMainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.bluetoothexample.ews.EWS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.bluetoothexample.ews.EWSTotalScoreActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.bluetoothexample.ews.EWSSCORE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.bluetoothexample.ews.EWScoreDetailActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.bluetoothexample.ews.EWSDETAIL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <!-- Cloud Activity -->
+        <activity
+            android:name="com.example.bluetoothexample.cloud.BloodPressureCloudActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.bluetoothexample.cloud.BLOOD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.bluetoothexample.cloud.PulseCloudActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.bluetoothexample.cloud.PULSERATE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.bluetoothexample.cloud.Spo2CloudActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.bluetoothexample.cloud.SPO2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.bluetoothexample.cloud.TemperatureCloudActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.bluetoothexample.cloud.TEMPERATURE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <!-- Bluetooth Activity -->
+        <activity
+            android:name="com.example.bluetoothexample.bluetooth.AmbientTemperatureDetail"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.bluetoothexample.bluetooth.AMBIENT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.bluetoothexample.bluetooth.BloodOxygenDetail"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.bluetoothexample.bluetooth.BLOOD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.bluetoothexample.bluetooth.BodyTemperatureDetail"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.bluetoothexample.bluetooth.TEMPERATURE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.bluetoothexample.bluetooth.PulseRateDetail"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.bluetoothexample.bluetooth.PULSERATE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/sphygmomanometer" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_marginLeft="12dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="mm Hg" 
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/tv_value_date_blood_cloud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_value_systolic_cloud"
+        android:layout_alignParentRight="true"
+        android:text="2016-11-20 15:10:09"
+        android:textSize="12sp" 
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/tv_value_diastolic_cloud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_value_systolic_cloud"
+        android:layout_centerHorizontal="true"
+        android:text="79"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:textColor="#F44336"/>
+
+    <TextView
+        android:id="@+id/tv_value_systolic_cloud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:text="120"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#F44336" />
+
+</RelativeLayout>

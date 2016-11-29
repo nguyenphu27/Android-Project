@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tv_pulseHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_spo2History"
+        android:layout_below="@+id/tv_spo2History"
+        android:layout_marginTop="15dp"
+        android:text="75 bpm"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:textColor="#F44336"/>
+
+    <TextView
+        android:id="@+id/tv_ambientHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_pulseHistory"
+        android:layout_alignBottom="@+id/tv_pulseHistory"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="88dp"
+        android:text="29 \u00b0C"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:textColor="#1B5E20"/>
+
+    <TextView
+        android:id="@+id/tv_bodyHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_spo2History"
+        android:layout_alignBottom="@+id/tv_spo2History"
+        android:layout_alignLeft="@+id/tv_ambientHistory"
+        android:text="37.5 \u00b0C"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:textColor="#FF9800"/>
+
+    <TextView
+        android:id="@+id/tv_spo2History"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="18dp"
+        android:text="98 %"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:textColor="#004d40"/>
+
+    <TextView
+        android:id="@+id/tv_dateHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_ambientHistory"
+        android:text="21:15 11-8-2016" 
+        android:textColor="#E65100"
+        />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_pulseHistory"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/thermometer" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_dateHistory"
+        android:layout_alignLeft="@+id/imageView1"
+        android:src="@drawable/sunny" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tv_pulseHistory"
+        android:layout_marginRight="15dp"
+        android:layout_toLeftOf="@+id/tv_pulseHistory"
+        android:src="@drawable/hearts32" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView3"
+        android:layout_alignTop="@+id/tv_spo2History"
+        android:src="@drawable/oxygennew" />
+
+</RelativeLayout>

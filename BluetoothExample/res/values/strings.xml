@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UHealth</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="help"><u>Help</u></string>
+    <string name="defaultSpiner"><u>Chọn</u></string>
+	
+    <string-array name="level_array_consciousness">
+        <item>Tỉnh táo</item>
+        <item>Tiếng nói</item>
+        <item>Đau đớn</item>
+        <item>Không phản ứng</item>
+    </string-array>
+    
+     <string name = "lowScoreWithResponse0">
+            \n
+        	Điểm của bạn rất thấp! Bạn cần được theo dõi trong ít nhất từ 4 - 6 giờ.\n     
+            \n
+            Phản hồi lâm sàng:\n
+        	Thông báo cho y tá phụ trách. Y tá phụ trách quyết định có hay không việc tăng 
+        	tần suất theo dõi và chăm sóc lâm sàng.\n
+    </string>
+    
+    <string name = "lowScoreWithResponse1">
+        	\n
+        	Điểm của bạn rất thấp! Bạn cần được theo dõi trong ít nhất từ 4 - 6 giờ.\n     
+            \n
+            Phản hồi lâm sàng:\n
+        	Thông báo cho y tá phụ trách. Y tá phụ trách quyết định có hay không việc tăng 
+        	tần suất theo dõi và chăm sóc lâm sàng.\n
+    </string>
+   
+    <string name = "mediumScore">
+        	\n
+        	Điểm của bạn bình thường! Tuy nhiên, bạn cần được theo dõi trong ít nhất 1 giờ.\n    
+            \n
+            Phản hồi lâm sàng:\n
+        	Y tá phụ trách thông báo khẩn cấp tới đội ngũ chăm sóc y tế cho bệnh nhân. Bệnh nhân cần
+        	được bác sĩ đánh giá khẩn cấp và kỹ càng. Chăm sóc lâm sàng với các phương tiện giám sát.\n
+    </string>
+    
+    <string name = "highScore">
+           \n
+           Điểm của bạn khá cao! Bạn cần được theo dõi liên tục.\n   
+            \n     
+           Phản hồi lâm sàng:\n
+           Y tá phụ trách phải thông báo tới đội ngũ chăm sóc y tế cho bệnh nhân ngay lập tức. Bác sĩ ít nhất phải có 
+           trình độ chuyên gia. Bệnh nhân cần được đánh giá khẩn cấp bởi đội ngũ bác sĩ có chuyên môn. 
+           Bác sĩ xem xét chuyển việc chăm sóc lâm sàng lên mức cao hơn.\n
+    </string>
+    
+    <string-array name="heartIndex">
+        <item>&lt;=40</item>
+        <item>41  &#8211; 50</item>
+        <item>51 &#8211; 90</item>
+        <item>91 &#8211; 110</item>
+        <item>111 &#8211; 130</item>
+        <item>&gt;=131</item>
+    </string-array>
+    
+    <string-array name="heartScore">
+        <item>Điểm: (3)</item>
+        <item>Điểm: (1)</item>
+        <item>Điểm: (0)</item>
+        <item>Điểm: (1)</item>
+        <item>Điểm: (2)</item>
+        <item>Điểm: (3)</item>
+    </string-array>
+    
+    <string-array name="oxyIndex">
+        <item>&lt;=91</item>
+        <item>92  &#8211; 93</item>
+        <item>94 &#8211; 95</item>
+        <item>&gt;=96</item>
+    </string-array>
+    
+    <string-array name="oxyScore">
+        <item>Điểm: (3)</item>
+        <item>Điểm: (2)</item>
+        <item>Điểm: (1)</item>
+        <item>Điểm: (0)</item>
+    </string-array>
+    
+    <string-array name="temperIndex">
+        <item>&lt;=35.0</item>
+        <item>35.1  &#8211; 36.0</item>
+        <item>36.1 &#8211; 38.0</item>
+        <item>38.1 &#8211; 39.0</item>
+        <item>&gt;=39.1</item>
+    </string-array>
+    
+    <string-array name="temperScore">
+        <item>Điểm: (3)</item>
+        <item>Điểm: (1)</item>
+        <item>Điểm: (0)</item>
+        <item>Điểm: (1)</item>
+        <item>Điểm: (2)</item>
+    </string-array>
+    
+    <string-array name="systolicIndex">
+        <item>&lt;=90</item>
+        <item>91  &#8211; 100</item>
+        <item>101 &#8211; 110</item>
+        <item>111 &#8211; 219</item>
+    </string-array>
+    
+    <string-array name="systolicScore">
+        <item>Điểm: (3)</item>
+        <item>Điểm: (2)</item>
+        <item>Điểm: (1)</item>
+        <item>Điểm: (0)</item>
+    </string-array>
+    
+    
+    
+</resources>

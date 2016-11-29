@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F44336">
+
+<ImageView
+    android:id="@+id/imHome"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:paddingLeft="5dp"
+    android:src="@drawable/left3" 
+    android:paddingTop="13dp"/>
+
+<TextView
+    android:id="@+id/action_bar_title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_toRightOf="@+id/imHome"
+    android:paddingLeft="10dp"
+    android:text="bar"
+    android:textColor="#ffffff"
+    android:textSize="18sp" 
+    android:paddingTop="11dp"/>
+
+<ImageButton
+    android:id="@+id/btn_sendEmail"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:src="@android:drawable/ic_dialog_email" />
+
+</RelativeLayout>

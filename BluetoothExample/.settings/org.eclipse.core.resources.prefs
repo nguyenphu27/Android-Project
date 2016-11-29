@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+encoding//src/com/example/bluetoothexample/CloudActivity.java=UTF-8
+encoding//src/com/example/bluetoothexample/MainApp.java=UTF-8
+encoding//src/com/example/bluetoothexample/Setting.java=UTF-8
+encoding//src/com/example/bluetoothexample/TestLayout.java=UTF-8
+encoding//src/com/example/bluetoothexample/cloud/BloodPressureCloudActivity.java=UTF-8
+encoding//src/com/example/bluetoothexample/cloud/PulseCloudActivity.java=UTF-8
+encoding//src/com/example/bluetoothexample/cloud/Spo2CloudActivity.java=UTF-8
+encoding//src/com/example/bluetoothexample/cloud/TemperatureCloudActivity.java=UTF-8
+encoding//src/com/example/bluetoothexample/customadapter/CustomGrid.java=UTF-8
+encoding//src/com/example/bluetoothexample/ews/EWSMainActivity.java=UTF-8
+encoding//src/com/example/bluetoothexample/ews/EWSTotalScoreActivity.java=UTF-8
+encoding//src/com/example/bluetoothexample/ews/EWScoreDetailActivity.java=UTF-8
